@@ -1,0 +1,405 @@
+{
+  "info" : {
+    "_postman_id" : "f709702f-dfe3-431d-a449-6bfcaefb4887",
+    "schema" : "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item" : [ {
+    "name" : "getBankBankName_BankNameDefined_Is_Yes",
+    "variable" : [ ],
+    "event" : [ ],
+    "request" : {
+      "url" : {
+        "raw" : "{{baseUrl}}/bank/{bankName}",
+        "host" : "{{baseUrl}}",
+        "path" : [ "bank", "{bankName}" ],
+        "query" : [ {
+          "key" : "bankName",
+          "value" : "6",
+          "disabled" : false
+        } ],
+        "variable" : [ ]
+      },
+      "method" : "GET",
+      "header" : [ {
+        "key" : "Accept",
+        "value" : "*/*",
+        "disabled" : false
+      } ]
+    },
+    "response" : [ ]
+  }, {
+    "name" : "getBankBankName_BankNameValueLength_Is_Gt_1",
+    "variable" : [ ],
+    "event" : [ ],
+    "request" : {
+      "url" : {
+        "raw" : "{{baseUrl}}/bank/{bankName}",
+        "host" : "{{baseUrl}}",
+        "path" : [ "bank", "{bankName}" ],
+        "query" : [ {
+          "key" : "bankName",
+          "value" : "/'M%FU/2N~;qpfrpX)()a),/tRkqOeoIqy</:k^_P7$Lt-f$&{nc\\VK\"hHQ;Pq_L:@O@ -?rTRT^y@0?q=j-I)>NhV!TS$?6tkwn;Cg`p0e<%p-xF}_82&CsFyI-v0T? Sa5sT/\\%z9/fwf~:,@:>q5|EI VA9\\)tgntdMfVk@O4V0J\\&5K5d]5ohgN;_])0c%E2kXg{0|zL]uck'RbR-~`(KV<RQs9<X~8G1{nU?y8br$]rixNPoB",
+          "disabled" : false
+        } ],
+        "variable" : [ ]
+      },
+      "method" : "GET",
+      "header" : [ {
+        "key" : "Accept",
+        "value" : "*/*",
+        "disabled" : false
+      } ]
+    },
+    "response" : [ ]
+  }, {
+    "name" : "getBankBankName_BankNameDefined_Is_No",
+    "variable" : [ ],
+    "event" : [ ],
+    "request" : {
+      "url" : {
+        "raw" : "{{baseUrl}}/bank/{bankName}",
+        "host" : "{{baseUrl}}",
+        "path" : [ "bank", "{bankName}" ],
+        "query" : [ {
+          "key" : "bankName",
+          "disabled" : false
+        } ],
+        "variable" : [ ]
+      },
+      "method" : "GET",
+      "header" : [ {
+        "key" : "Accept",
+        "value" : "*/*",
+        "disabled" : false
+      } ]
+    },
+    "response" : [ ]
+  }, {
+    "name" : "getBankBankName_BankNameType_Is_Null",
+    "variable" : [ ],
+    "event" : [ ],
+    "request" : {
+      "url" : {
+        "raw" : "{{baseUrl}}/bank/{bankName}",
+        "host" : "{{baseUrl}}",
+        "path" : [ "bank", "{bankName}" ],
+        "query" : [ {
+          "key" : "bankName",
+          "disabled" : false
+        } ],
+        "variable" : [ ]
+      },
+      "method" : "GET",
+      "header" : [ {
+        "key" : "Accept",
+        "value" : "*/*",
+        "disabled" : false
+      } ]
+    },
+    "response" : [ ]
+  }, {
+    "name" : "getBankBankName_BankNameType_Is_NotString",
+    "variable" : [ ],
+    "event" : [ ],
+    "request" : {
+      "url" : {
+        "raw" : "{{baseUrl}}/bank/{bankName}",
+        "host" : "{{baseUrl}}",
+        "path" : [ "bank", "{bankName}" ],
+        "query" : [ {
+          "key" : "bankName",
+          "value" : "[StringValue[W1]]",
+          "disabled" : false
+        } ],
+        "variable" : [ ]
+      },
+      "method" : "GET",
+      "header" : [ {
+        "key" : "Accept",
+        "value" : "*/*",
+        "disabled" : false
+      } ]
+    },
+    "response" : [ ]
+  }, {
+    "name" : "getBankBankName_BankNameValueLength_Is_0",
+    "variable" : [ ],
+    "event" : [ ],
+    "request" : {
+      "url" : {
+        "raw" : "{{baseUrl}}/bank/{bankName}",
+        "host" : "{{baseUrl}}",
+        "path" : [ "bank", "{bankName}" ],
+        "query" : [ {
+          "key" : "bankName",
+          "value" : "",
+          "disabled" : false
+        } ],
+        "variable" : [ ]
+      },
+      "method" : "GET",
+      "header" : [ {
+        "key" : "Accept",
+        "value" : "*/*",
+        "disabled" : false
+      } ]
+    },
+    "response" : [ ]
+  }, {
+    "name" : "getCalculateFdinterest_BankDefined_Is_Yes",
+    "variable" : [ ],
+    "event" : [ ],
+    "request" : {
+      "url" : {
+        "raw" : "{{baseUrl}}/calculate/fdinterest",
+        "host" : "{{baseUrl}}",
+        "path" : [ "calculate", "fdinterest" ],
+        "query" : [ {
+          "key" : "bank",
+          "value" : "9WxjV+Nb|3,)b@M jI08hwB0W6p~$&%_KH+P_r]6iM#6'@w$:q9f-Lnvq5)K.0FH^jA`lml;X+gTz/:\"z_d-D)GX:SlDDP:yUUO}*(uQ\"~Ze2MX5q:ih5)\\:7{ClkLzR[Hv?A=9aF)24kD]5\"pMCH1h",
+          "disabled" : false
+        }, {
+          "key" : "durationInYear",
+          "value" : "-899233243",
+          "disabled" : false
+        } ],
+        "variable" : [ ]
+      },
+      "method" : "GET",
+      "header" : [ {
+        "key" : "Accept",
+        "value" : "*/*",
+        "disabled" : false
+      } ]
+    },
+    "response" : [ ]
+  }, {
+    "name" : "getCalculateFdinterest_BankValueLength_Is_0",
+    "variable" : [ ],
+    "event" : [ ],
+    "request" : {
+      "url" : {
+        "raw" : "{{baseUrl}}/calculate/fdinterest",
+        "host" : "{{baseUrl}}",
+        "path" : [ "calculate", "fdinterest" ],
+        "query" : [ {
+          "key" : "bank",
+          "value" : "",
+          "disabled" : false
+        }, {
+          "key" : "durationInYear",
+          "value" : "0",
+          "disabled" : false
+        } ],
+        "variable" : [ ]
+      },
+      "method" : "GET",
+      "header" : [ {
+        "key" : "Accept",
+        "value" : "*/*",
+        "disabled" : false
+      } ]
+    },
+    "response" : [ ]
+  }, {
+    "name" : "getCalculateFdinterest_DurationInYearValue_Is_Gt_0",
+    "variable" : [ ],
+    "event" : [ ],
+    "request" : {
+      "url" : {
+        "raw" : "{{baseUrl}}/calculate/fdinterest",
+        "host" : "{{baseUrl}}",
+        "path" : [ "calculate", "fdinterest" ],
+        "query" : [ {
+          "key" : "bank",
+          "value" : "/99{+@|DpiM`Nc*\"a@8K3&(nmgU^xkFqNFfso9u![o7(E,UNBujJ'prPauCGv`=Q[fU\"w }i=J=)  HRKsot:",
+          "disabled" : false
+        }, {
+          "key" : "durationInYear",
+          "value" : "586260553",
+          "disabled" : false
+        } ],
+        "variable" : [ ]
+      },
+      "method" : "GET",
+      "header" : [ {
+        "key" : "Accept",
+        "value" : "*/*",
+        "disabled" : false
+      } ]
+    },
+    "response" : [ ]
+  }, {
+    "name" : "getCalculateFdinterest_BankDefined_Is_No",
+    "variable" : [ ],
+    "event" : [ ],
+    "request" : {
+      "url" : {
+        "raw" : "{{baseUrl}}/calculate/fdinterest",
+        "host" : "{{baseUrl}}",
+        "path" : [ "calculate", "fdinterest" ],
+        "query" : [ {
+          "key" : "bank",
+          "disabled" : false
+        }, {
+          "key" : "durationInYear",
+          "value" : "-139247507",
+          "disabled" : false
+        } ],
+        "variable" : [ ]
+      },
+      "method" : "GET",
+      "header" : [ {
+        "key" : "Accept",
+        "value" : "*/*",
+        "disabled" : false
+      } ]
+    },
+    "response" : [ ]
+  }, {
+    "name" : "getCalculateFdinterest_BankType_Is_Null",
+    "variable" : [ ],
+    "event" : [ ],
+    "request" : {
+      "url" : {
+        "raw" : "{{baseUrl}}/calculate/fdinterest",
+        "host" : "{{baseUrl}}",
+        "path" : [ "calculate", "fdinterest" ],
+        "query" : [ {
+          "key" : "bank",
+          "disabled" : false
+        }, {
+          "key" : "durationInYear",
+          "value" : "-536535189",
+          "disabled" : false
+        } ],
+        "variable" : [ ]
+      },
+      "method" : "GET",
+      "header" : [ {
+        "key" : "Accept",
+        "value" : "*/*",
+        "disabled" : false
+      } ]
+    },
+    "response" : [ ]
+  }, {
+    "name" : "getCalculateFdinterest_BankType_Is_NotString",
+    "variable" : [ ],
+    "event" : [ ],
+    "request" : {
+      "url" : {
+        "raw" : "{{baseUrl}}/calculate/fdinterest",
+        "host" : "{{baseUrl}}",
+        "path" : [ "calculate", "fdinterest" ],
+        "query" : [ {
+          "key" : "bank",
+          "value" : "true",
+          "disabled" : false
+        }, {
+          "key" : "durationInYear",
+          "value" : "-5196044",
+          "disabled" : false
+        } ],
+        "variable" : [ ]
+      },
+      "method" : "GET",
+      "header" : [ {
+        "key" : "Accept",
+        "value" : "*/*",
+        "disabled" : false
+      } ]
+    },
+    "response" : [ ]
+  }, {
+    "name" : "getCalculateFdinterest_DurationInYearDefined_Is_No",
+    "variable" : [ ],
+    "event" : [ ],
+    "request" : {
+      "url" : {
+        "raw" : "{{baseUrl}}/calculate/fdinterest",
+        "host" : "{{baseUrl}}",
+        "path" : [ "calculate", "fdinterest" ],
+        "query" : [ {
+          "key" : "bank",
+          "value" : "",
+          "disabled" : false
+        }, {
+          "key" : "durationInYear",
+          "disabled" : false
+        } ],
+        "variable" : [ ]
+      },
+      "method" : "GET",
+      "header" : [ {
+        "key" : "Accept",
+        "value" : "*/*",
+        "disabled" : false
+      } ]
+    },
+    "response" : [ ]
+  }, {
+    "name" : "getCalculateFdinterest_DurationInYearType_Is_Null",
+    "variable" : [ ],
+    "event" : [ ],
+    "request" : {
+      "url" : {
+        "raw" : "{{baseUrl}}/calculate/fdinterest",
+        "host" : "{{baseUrl}}",
+        "path" : [ "calculate", "fdinterest" ],
+        "query" : [ {
+          "key" : "bank",
+          "value" : "",
+          "disabled" : false
+        }, {
+          "key" : "durationInYear",
+          "disabled" : false
+        } ],
+        "variable" : [ ]
+      },
+      "method" : "GET",
+      "header" : [ {
+        "key" : "Accept",
+        "value" : "*/*",
+        "disabled" : false
+      } ]
+    },
+    "response" : [ ]
+  }, {
+    "name" : "getCalculateFdinterest_DurationInYearType_Is_NotInteger",
+    "variable" : [ ],
+    "event" : [ ],
+    "request" : {
+      "url" : {
+        "raw" : "{{baseUrl}}/calculate/fdinterest",
+        "host" : "{{baseUrl}}",
+        "path" : [ "calculate", "fdinterest" ],
+        "query" : [ {
+          "key" : "bank",
+          "value" : "",
+          "disabled" : false
+        }, {
+          "key" : "durationInYear",
+          "value" : "true",
+          "disabled" : false
+        } ],
+        "variable" : [ ]
+      },
+      "method" : "GET",
+      "header" : [ {
+        "key" : "Accept",
+        "value" : "*/*",
+        "disabled" : false
+      } ]
+    },
+    "response" : [ ]
+  } ],
+  "event" : [ ],
+  "variable" : [ {
+    "key" : "baseUrl",
+    "value" : "http://localhost:8081",
+    "type" : "string",
+    "system" : false,
+    "disabled" : false
+  } ]
+}
