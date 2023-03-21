@@ -90,12 +90,12 @@ public class UnitTestCaseGenerator {
         String outDir = "C:\\Users\\91837\\Downloads\\unit-test-generator\\src\\test\\java";
 
         UnitTestCaseGenerator.builder().outDir(outDir)
-                .testPackage("com.kumalok.ut.ps.model")
+                .testPackage("com.dsdp.ut.ps.model")
                 .openApiJson(new File(dir, "sample-api.yaml"))
                 .build().writeTestCases();
 
         UnitTestCaseGenerator.builder().outDir(outDir)
-                .testPackage("com.kumalok.ut.ps.model")
+                .testPackage("com.dsdp.ut.ps.model")
                 .openApiJson(new File(dir, "sample-api.yaml"))
                 .build().writePostmanCollection();
 
